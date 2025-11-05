@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-06T00:01:26 IST" name="Default suite" finished-at="2025-11-06T00:01:41 IST" duration-ms="15561">
+    <groups>
+    </groups>
+    <test started-at="2025-11-06T00:01:26 IST" name="Default test" finished-at="2025-11-06T00:01:41 IST" duration-ms="15561">
+      <class name="com.enrichminion.tests.UI_Automation_PositiveFlow">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.enrichminion.tests.UI_Automation_PositiveFlow@7d20d0b]" started-at="2025-11-06T00:01:26 IST" name="setup" finished-at="2025-11-06T00:01:28 IST" duration-ms="2685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:com.enrichminion.tests.UI_Automation_PositiveFlow@7d20d0b]" started-at="2025-11-06T00:01:28 IST" name="loginTest" finished-at="2025-11-06T00:01:34 IST" duration-ms="5975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="uploadFileTest()[pri:2, instance:com.enrichminion.tests.UI_Automation_PositiveFlow@7d20d0b]" started-at="2025-11-06T00:01:34 IST" name="uploadFileTest" finished-at="2025-11-06T00:01:39 IST" depends-on-methods="com.enrichminion.tests.UI_Automation_PositiveFlow.loginTest" duration-ms="4337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFileTest -->
+        <test-method signature="logoutTest()[pri:3, instance:com.enrichminion.tests.UI_Automation_PositiveFlow@7d20d0b]" started-at="2025-11-06T00:01:39 IST" name="logoutTest" finished-at="2025-11-06T00:01:40 IST" depends-on-methods="com.enrichminion.tests.UI_Automation_PositiveFlow.uploadFileTest" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.enrichminion.tests.UI_Automation_PositiveFlow@7d20d0b]" started-at="2025-11-06T00:01:40 IST" name="tearDown" finished-at="2025-11-06T00:01:41 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.enrichminion.tests.UI_Automation_PositiveFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
